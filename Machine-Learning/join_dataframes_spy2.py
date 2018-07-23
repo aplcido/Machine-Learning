@@ -66,6 +66,13 @@ def test_run():
     
     #slice by row and column
     #print (df.ix['2010-01-01':'2010-12-31',['SPY','IBM']])
+    
+
+    #compute global statistics for each stock
+    print(df.mean())
+    print(df.median())
+    print(df.std()) #standard deviation
+
     print (df)
 
 
